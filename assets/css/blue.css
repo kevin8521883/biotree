@@ -1,0 +1,412 @@
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.banner__content h5 a:hover {
+	color: black;
+}
+
+.line_share {
+	color: black;
+}
+
+.line_share :hover {
+	color: #18988b !important;
+}
+
+
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+img {
+	image-rendering: -moz-crisp-edges;
+	/* Firefox */
+	image-rendering: -o-crisp-edges;
+	/* Opera */
+	image-rendering: -webkit-optimize-contrast;
+	/*Webkit (non-standard naming) */
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
+	/* IE (non-standard property) */
+}
+
+#header-sticky {
+	padding: 10px 0;
+}
+
+.main-menu ul li a {
+	font-weight: bold;
+}
+
+.banner__content h5 {
+	font-weight: bold;
+}
+
+.section__title h2 {
+	font-weight: bold;
+}
+
+.section__sub-title p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product__nav-img .product_left_detail {
+	height: auto !important;
+}
+
+.product__details-des-list ul li {
+	padding-left: 0;
+}
+
+.product__details-tab-nav {
+	margin-bottom: 30px;
+}
+
+.product__details-tab-nav .nav-tabs .nav-link.active {
+	font-size: 16px;
+}
+
+.product__modal-des,
+.product__details-des-list {
+	color: #595959;
+}
+
+.product__content h4 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+/*關於寶皙萃*/
+/*.blog__area .row {
+	justify-content: center;
+}*/
+.postbox__wrapper,
+.postbox__wrapper p {
+	color: #606060;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.blog__wrapper:hover .article-img {
+	transform: scale(1.1);
+	transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+
+	/*header {
+		padding: 10px 0;
+	}*/
+	header .row {
+		justify-content: center;
+		text-align: center;
+	}
+
+	header .col-sm-5 {
+		max-width: 0;
+		position: absolute;
+		left: 20px;
+	}
+}
+
+
+
+@media (max-width: 575px) {
+	header {
+		border-bottom: 1px solid #f2f2f2;
+	}
+
+	.header__area {
+		padding: 10px 0;
+	}
+
+	.shop__top,
+	.shop__bottom {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.product__wrapper {
+		padding: 0 10px;
+	}
+
+	.logo img {
+		height: 40px;
+	}
+
+	#scroll a {
+		right: 10px;
+		bottom: 30px;
+	}
+
+	.footer__top {
+		text-align: center;
+		padding-top: 60px;
+	}
+
+	.footer__bottom {
+		text-align: center;
+	}
+
+	.footer__social {
+		float: none;
+	}
+}
+
+
+
+/*文章列表*/
+
+.blog__border-bottom {
+	border-bottom: 1px solid #f5f5f5
+}
+
+#tags {
+	/* margin-top: -40px; */
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+#tags ul {
+	/* height: 42px; */
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#tags ul li {
+	display: inline-block;
+	/*width: 12%;*/
+	height: 42px;
+	text-align: center;
+	background: #18988b;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+/*#tags ul a:not(:nth-child(6n)) li {
+	margin-right: 5.25%;
+}*/
+
+.blog__content h4 {
+	font-weight: bold;
+	height: 72px;
+	overflow: hidden;
+}
+
+.blog__content h4 a:hover {
+	color: #201f1f;
+}
+
+.blog__content .blog__meta {
+	color: #86d4c9;
+	font-size: 14px
+}
+
+.blog__content p {
+	font-weight: bold;
+	max-height: 48px;
+	line-height: 1.6;
+	overflow: hidden;
+	font-size: 14px;
+	color: #606060;
+	/* white-space: nowrap; */
+	text-overflow: ellipsis;
+}
+
+.blog__content .os-btn {
+	line-height: 48px;
+	border-color: #edab92;
+}
+
+.os-btn:after {
+	position: relative;
+}
+
+.btn-outline-customer {
+	color: #edab92;
+	border-color: #edab92;
+}
+
+.btn-outline-customer:hover {
+	color: white;
+	background-color: #edab92;
+	border-color: #edab92;
+}
+
+.os-btn:hover {
+	background: #edab92;
+}
+
+/*文章頁*/
+.postbox__title .blog__meta {
+	color: #86d4c9;
+}
+
+.postbox__wrapper img {
+	max-width: 100%;
+}
+
+.postbox__share {
+	padding-top: 30px;
+	padding: 15px 0;
+	padding-bottom: 20px;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.postbox__social {
+	height: 50px;
+}
+
+.postbox__social ul {
+	margin-left: 15px;
+}
+
+.postbox__social ul a {
+	margin-right: 10px;
+}
+
+.postbox__tag ul {
+	display: inline;
+}
+
+.postbox__tag ul li {
+	display: inline-block;
+	background: #18988b;
+	color: #fff;
+	font-size: 14px;
+	padding: 8px 12px;
+	margin-bottom: 12px;
+}
+
+.postbox__related-title h3 {
+	font-weight: bold;
+}
+
+.article_list_top {
+	background-image: url('https://biotree.com.tw/img/article_list/top_l.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30vw;
+}
+
+/*pagination*/
+.basic-pagination ul li.active a {
+	border-color: #201f1f;
+}
+.basic-pagination ul li a {
+	text-decoration: none;
+	height: 35px;
+	width: 35px;
+	background: transparent;
+	color: #201f1f;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 31px;
+	margin: 0px;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid #ebebeb;
+}
+
+@media (max-width: 767px) {
+	.article_list_top {
+		background-position: center;
+		height: 45vw;
+	}
+}
+
+/*@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+}*/
+
+/*@media only screen and (max-width: 991px) and (min-width: 576px) {
+	#tags ul a:nth-child(5n) li, #tags ul a:nth-child(6n) li {
+		display: none;
+	}
+}
+
+@media (max-width: 575px) {
+	#tags ul a:nth-child(4n) li, #tags ul a:nth-child(5n) li, #tags ul a:nth-child(6n) li {
+		display: none;
+	}
+}*/

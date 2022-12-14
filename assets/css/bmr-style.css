@@ -1,0 +1,352 @@
+li {
+    list-style: none;
+}
+
+.bmr-img {
+    background-image: url(../assets/img/bmr/bmr-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 182px;
+}
+
+.bmr-card {
+    border: 3px solid #5C7757;
+    border-radius: 38px;
+    margin-top: -34px;
+    padding: 30px 46px;
+    background-color: rgb(248, 248, 248);
+}
+
+@media (max-width:1200px) {
+    .bmr-img {
+        height: 124px;
+    }
+}
+
+@media (max-width:768px) {
+    .bmr-img {
+        height: 116px;
+    }
+    .bmr-card {
+        padding: 30px 26px;
+    }
+}
+
+@media (max-width:992px) {
+    .bmr-content {
+        margin-top: 35px;
+    }
+    .mobile-top {
+        margin-top: 40px !important;
+    }
+    .mobile-bottom {
+        margin-bottom: 1rem !important;
+    }
+}
+
+.bmr-card #a,
+.bmr-card #s,
+.bmr-card #w {
+    width: 100%;
+}
+
+.bmr-card input {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #d6d6d6;
+}
+
+.bmr-card h1 {
+    font-size: 1.5rem;
+}
+
+.bmr-card h4 {
+    font-size: 14px;
+}
+
+.bmr-grade {
+    text-align: left;
+    font-size: 16px;
+}
+
+.bmr-grade li {
+    border: 1px solid seagreen;
+    margin: 6px 0;
+    border-radius: 12px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.lv-result {
+    font-size: 17px;
+    font-weight: 600;
+    color: #566f31;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: 600;
+    color: #566f31;
+}
+
+.bmi-link {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 9px 0;
+}
+
+.btn-success:hover a {
+    color: #5C7757;
+}
+
+.btn-success {
+    background-color: #537c37;
+    border: none;
+    font-size: 14px;
+}
+
+@media(max-width:425px) {
+    .bmi-link {
+        font-size: 14px;
+    }
+    .btn-success {
+        font-size: 13px;
+    }
+}
+
+.bmr-btn {
+    background-color: #d9d9d9;
+    padding: 10px 12px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+.nav-tabs .nav-link {
+    color: #a5a5a5;
+}
+
+.bmr-grade .col-6,
+.bmr-grade .col-lg-4 {
+    padding: 0 5px;
+}
+
+.food-box {
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.food-box input {
+    padding: 3px;
+    border-radius: 6px;
+    border: 1px solid #d6d6d6;
+    width: 40%;
+}
+
+@media(max-width:992px) {
+    .food-box input {
+        width: 55%;
+    }
+}
+
+@media(max-width:560px) {
+    .food-box input {
+        width: 78%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.food-number {
+    font-size: 30px;
+    text-shadow: 2px 2px 0 #fff, -2px 2px 0 #fff, 2px -2px 0 #fff, -2px -2px 0 #fff;
+    color: #239b3f;
+    margin: 0 3px;
+}
+
+.food-number-1 {
+    font-size: 24px;
+    text-shadow: 2px 2px 0 #fff, -2px 2px 0 #fff, 2px -2px 0 #fff, -2px -2px 0 #fff;
+    color: #239b3f;
+    margin: 0 3px;
+}
+
+
+/* .food-item {
+    background: #fff;
+}
+ */
+
+.food-border-left {
+    border-left: 1px dashed rgb(184, 184, 184);
+}
+
+.food-border-bottom {
+    border-bottom: 1px dashed rgb(184, 184, 184);
+}
+
+@media(max-width:992px) {
+    .food-border-top {
+        border-top: 1px dashed rgb(184, 184, 184);
+    }
+    .food-border-left {
+        border-left: 0px dashed rgb(184, 184, 184);
+    }
+}
+
+.for-mobile {
+    display: none;
+    position: fixed;
+    top: 58px;
+    font-size: 15px;
+    background-color: #7b6132;
+    color: #fff;
+    border-top: 1px solid #fff;
+    box-shadow: 0px 3px 20px #00000021;
+    padding: 5px 10px;
+    width: 100%;
+    z-index: 99;
+}
+
+.for-web {
+    background-color: #28a745;
+    display: inline-block;
+    border-radius: 12px 0 0 12px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    text-align: center;
+    z-index: 9;
+    text-shadow: 2px 2px 6px #24953d;
+    padding: 4px 8px;
+    font-size: 15px;
+}
+
+.for-web:hover {
+    background-color: #186b2c;
+    text-shadow: 2px 2px 6px #145824;
+}
+
+.for-mobile a,
+.for-web a {
+    color: #fff;
+}
+
+@media(max-width:992px) {
+    .for-mobile {
+        display: block
+    }
+    .for-web {
+        display: none;
+    }
+}
+
+@media(max-width:362px) {
+    .for-mobile {
+        font-size: 14px;
+    }
+}
+
+.pb-11 {
+    padding-bottom: 11px;
+}
+
+.food-box-icon {
+    position: absolute;
+    top: 95px;
+    left: 25px;
+}
+
+@media(max-width:560px) {
+    .food-box-icon {
+        top: 135px
+    }
+}
+
+.bmr-point {
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.food-content {
+    background-color: #fff;
+    box-shadow: 3px 3px 20px rgba(51, 51, 51, 0.082);
+    border-radius: 24px;
+    border: 3px solid #28a745;
+    padding: 40px 16px 10px 16px;
+    position: relative;
+}
+
+.food-title {
+    background: #28a745;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    top: -24px;
+}
+
+.food-input-label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.tdee-guide {
+    font-size: 14px;
+    color: #FF0000;
+    margin-bottom: 0rem;
+    margin-top: 6px;
+}
+
+.food-guide {
+    border: 1px dashed rgb(187, 187, 187);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0rem;
+    margin-top: 6px;
+}
+
+.food-result-box {
+    background-color: #ededed;
+    padding: 12px 30px;
+    margin: 18px 2px 0 2px;
+    border-radius: 15px;
+}
+
+.food-result-content {
+    background-color: #fff;
+    padding: 0 20px;
+    background: linear-gradient(to left bottom, transparent 48%, #D2D2D2 0) no-repeat 100% 0 / 2em 2em, linear-gradient(-135deg, transparent 1.35em, #fff 0);
+}
+
+.food-subtitle {
+    font-size: 14px;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+
+@media(max-width:450px) {
+    .tdee-formula {
+        font-size: 14px;
+    }
+}
+
+.infoicon {
+    color: #ffffff !important;
+    background-color: #ababab;
+    border-radius: 10rem;
+    display: inline-block;
+    padding: 0.35em 0.5em 0.25em 0.5em;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    cursor: pointer;
+}

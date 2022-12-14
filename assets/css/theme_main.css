@@ -1,0 +1,27 @@
+#index .product_item hr {
+  margin: 0 0 20px;
+  position: relative;
+  border-width: 2px;
+}
+
+#index .product_item hr:after {
+  border-bottom: 2px solid #624D4A;
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  width: 95px;
+}
+
+/* #footer, #footer .footer_content h5 {
+  background: #f5f5f5 !important; } */
+
+@media (max-width: 575px) {
+  #footer .footer_content hr {
+    border-width: 1px;
+  }
+
+  #footer .footer_content hr:after {
+    border: none;
+  }
+}
